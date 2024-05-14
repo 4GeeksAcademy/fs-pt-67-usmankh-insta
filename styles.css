@@ -4,14 +4,15 @@ body {
 }
 .Post-header {
     background: white;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding:  2px;
+    margin-top: 5px;
 }
 h2, p {
-    margin: 0;
+    margin: auto;
 }
 .iconosup {
     display: flex;
@@ -33,9 +34,27 @@ h2, p {
     height: 300px;
 }
 .Post h2, .Post p {
-    padding: 10px;
+    padding: 2px;
 }
 .container {
     width: 500px;
     margin: auto;
+}
+
+.tag{
+    margin-right: 5px;
+
+}
+
+.heart{
+    margin-left: 5px;
+}
+
+.etiqueta{
+    margin-left: 5px;
+}
+
+.puntos {
+    margin-right: 5px;
+    
 }
